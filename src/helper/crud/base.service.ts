@@ -1,5 +1,5 @@
 import { NotFoundException } from '@nestjs/common'
-import { ObjectLiteral, Repository } from 'typeorm'
+import { FindManyOptions, FindOptionsOrder, ObjectLiteral, Repository } from 'typeorm'
 
 import { PagerDto } from '~/common/dto/pager.dto'
 
@@ -13,8 +13,16 @@ export class BaseService<E extends ObjectLiteral, R extends Repository<E> = Repo
   async list({
     page,
     pageSize,
+    field,
+    order,
+    ...query
   }: PagerDto): Promise<Pagination<E>> {
-    return paginate(this.repository, { page, pageSize })
+    console.log('BaseService -> list -> query', query)
+    const searchOptions: FindManyOptions<E> = {
+      where: query as unknown as FindManyOptions<E>['where'],
+      order: field && order ? { [field]: order } as FindOptionsOrder<E> : undefined,
+    }
+    return paginate(this.repository, { page, pageSize }, searchOptions)
   }
 
   async findOne(id: number): Promise<E> {

@@ -53,6 +53,7 @@ export function BaseCrudFactory<
     @Get()
     @ApiResult({ type: [entity], isPage: true })
     async list(@Query() pager: QueryDto) {
+      console.log('BaseController -> list -> pager', pager)
       return await this.service.list(pager)
     }
 
@@ -70,7 +71,13 @@ export function BaseCrudFactory<
 
     @Put(':id')
     async update(@IdParam() id: number, @Body() dto: UpdateDto) {
-      return await this.service.update(id, dto)
+      try {
+        return await this.service.update(id, dto)
+      }
+      catch (e) {
+        console.log(e)
+        throw new Error('更新失败')
+      }
     }
 
     @Patch(':id')

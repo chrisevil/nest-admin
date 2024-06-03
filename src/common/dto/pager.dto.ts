@@ -8,7 +8,7 @@ export enum Order {
 }
 
 export class PagerDto<T = any> {
-  @ApiProperty({ minimum: 1, default: 1 })
+  @ApiProperty({ minimum: 1, default: 1, description: '页码' })
   @Min(1)
   @IsInt()
   @Expose()
@@ -18,7 +18,7 @@ export class PagerDto<T = any> {
   })
   page?: number
 
-  @ApiProperty({ minimum: 1, maximum: 100, default: 10 })
+  @ApiProperty({ minimum: 1, maximum: 100, default: 10, description: '每页数量' })
   @Min(1)
   @Max(100)
   @IsInt()

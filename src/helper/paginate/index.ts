@@ -31,7 +31,7 @@ async function paginateRepository<T>(
   searchOptions?: FindOptionsWhere<T> | FindManyOptions<T>,
 ): Promise<Pagination<T>> {
   const [page, limit] = resolveOptions(options)
-
+  console.log('paginateRepository -> searchOptions', searchOptions)
   const promises: [Promise<T[]>, Promise<number> | undefined] = [
     repository.find({
       skip: limit * (page - 1),
