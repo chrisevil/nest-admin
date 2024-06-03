@@ -1,0 +1,76 @@
+{"context":"CronService","level":"info","message":"--> 开始扫表，清除过期的 token","timestamp":"2024-05-09T16:00:01.496Z"}
+{"context":"CronService","level":"info","message":"--> 删除了 0 个过期的 token","timestamp":"2024-05-09T16:00:01.522Z"}
+{"context":"NestApplication","level":"info","message":"[P34076] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T01:38:00.620Z"}
+{"context":"NestApplication","level":"info","message":"[P34076] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T01:38:00.624Z"}
+{"context":"NestApplication","level":"info","message":"[P62324] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T05:32:46.342Z"}
+{"context":"NestApplication","level":"info","message":"[P62324] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T05:32:46.346Z"}
+{"context":"NestApplication","level":"info","message":"[P61784] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T07:58:15.715Z"}
+{"context":"NestApplication","level":"info","message":"[P61784] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T07:58:15.717Z"}
+{"context":"NestApplication","level":"info","message":"[P49796] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T07:58:19.268Z"}
+{"context":"NestApplication","level":"info","message":"[P49796] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T07:58:19.271Z"}
+{"context":"NestApplication","level":"info","message":"[P24132] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T08:04:55.732Z"}
+{"context":"NestApplication","level":"info","message":"[P24132] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T08:04:55.734Z"}
+{"context":"NestApplication","level":"info","message":"[P30044] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T09:04:08.684Z"}
+{"context":"NestApplication","level":"info","message":"[P30044] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T09:04:08.688Z"}
+{"level":"warn","message":"错误信息：(404) Cannot GET / Path: /","timestamp":"2024-05-10T09:04:39.367Z"}
+{"context":"NestApplication","level":"info","message":"[P29424] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T09:56:49.638Z"}
+{"context":"NestApplication","level":"info","message":"[P29424] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T09:56:49.644Z"}
+{"context":"NestApplication","level":"info","message":"[P23160] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T09:56:55.398Z"}
+{"context":"NestApplication","level":"info","message":"[P23160] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T09:56:55.400Z"}
+{"context":"NestApplication","level":"info","message":"[P17516] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T10:02:54.849Z"}
+{"context":"NestApplication","level":"info","message":"[P17516] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T10:02:54.852Z"}
+{"context":"NestApplication","level":"info","message":"[P56516] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T10:03:05.131Z"}
+{"context":"NestApplication","level":"info","message":"[P56516] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T10:03:05.134Z"}
+{"context":"NestApplication","level":"info","message":"[P62700] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T10:03:09.198Z"}
+{"context":"NestApplication","level":"info","message":"[P62700] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T10:03:09.201Z"}
+{"context":"NestApplication","level":"info","message":"[P29844] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:11:41.356Z"}
+{"context":"NestApplication","level":"info","message":"[P29844] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:11:41.360Z"}
+{"context":"NestApplication","level":"info","message":"[P63296] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:13:39.613Z"}
+{"context":"NestApplication","level":"info","message":"[P63296] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:13:39.616Z"}
+{"context":"NestApplication","level":"info","message":"[P59608] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:13:44.429Z"}
+{"context":"NestApplication","level":"info","message":"[P59608] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:13:44.431Z"}
+{"context":"NestApplication","level":"info","message":"[P36540] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:15:58.601Z"}
+{"context":"NestApplication","level":"info","message":"[P36540] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:15:58.604Z"}
+{"context":"NestApplication","level":"info","message":"[P15092] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:17:06.799Z"}
+{"context":"NestApplication","level":"info","message":"[P15092] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:17:06.801Z"}
+{"context":"NestApplication","level":"info","message":"[P36304] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:43:10.910Z"}
+{"context":"NestApplication","level":"info","message":"[P36304] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:43:10.912Z"}
+{"context":"NestApplication","level":"info","message":"[P44656] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:44:10.582Z"}
+{"context":"NestApplication","level":"info","message":"[P44656] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:44:10.584Z"}
+{"context":"NestApplication","level":"info","message":"[P17612] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:44:15.915Z"}
+{"context":"NestApplication","level":"info","message":"[P17612] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:44:15.917Z"}
+{"context":"NestApplication","level":"info","message":"[P25956] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:44:36.212Z"}
+{"context":"NestApplication","level":"info","message":"[P25956] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:44:36.215Z"}
+{"context":"NestApplication","level":"info","message":"[P20528] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:46:13.197Z"}
+{"context":"NestApplication","level":"info","message":"[P20528] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:46:13.199Z"}
+{"context":"NestApplication","level":"info","message":"[P59344] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:47:38.007Z"}
+{"context":"NestApplication","level":"info","message":"[P59344] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:47:38.010Z"}
+{"context":"NestApplication","level":"info","message":"[P56216] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T11:51:25.667Z"}
+{"context":"NestApplication","level":"info","message":"[P56216] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T11:51:25.670Z"}
+{"context":"NestApplication","level":"info","message":"[P50000] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T12:02:56.144Z"}
+{"context":"NestApplication","level":"info","message":"[P50000] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T12:02:56.147Z"}
+{"context":"NestApplication","level":"info","message":"[P20984] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T12:03:14.792Z"}
+{"context":"NestApplication","level":"info","message":"[P20984] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T12:03:14.795Z"}
+{"context":"NestApplication","level":"info","message":"[P30748] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T12:04:33.148Z"}
+{"context":"NestApplication","level":"info","message":"[P30748] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T12:04:33.150Z"}
+{"context":"NestApplication","level":"info","message":"[P22536] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T12:04:59.465Z"}
+{"context":"NestApplication","level":"info","message":"[P22536] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T12:04:59.467Z"}
+{"context":"NestApplication","level":"info","message":"[P58724] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T12:05:13.112Z"}
+{"context":"NestApplication","level":"info","message":"[P58724] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T12:05:13.114Z"}
+{"level":"warn","message":"错误信息：(401) 未登录 Path: /api/system/tasks?page=1&pageSize=10&limit=-1","timestamp":"2024-05-10T12:07:22.479Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：POST -> /api/auth/login","timestamp":"2024-05-10T12:08:05.353Z"}
+{"level":"warn","message":"错误信息：(200) 验证码填写有误 Path: /api/auth/login","timestamp":"2024-05-10T12:08:05.370Z"}
+{"level":"warn","message":"错误信息：(400) Expected double-quoted property name in JSON at position 50 Path: /api/auth/login","timestamp":"2024-05-10T12:08:09.793Z"}
+{"level":"warn","message":"错误信息：(400) Expected double-quoted property name in JSON at position 51 Path: /api/auth/login","timestamp":"2024-05-10T12:08:11.738Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：POST -> /api/auth/login","timestamp":"2024-05-10T12:08:13.826Z"}
+{"level":"warn","message":"错误信息：(422) captchaId must be a string Path: /api/auth/login","timestamp":"2024-05-10T12:08:13.830Z"}
+{"context":"NestApplication","level":"info","message":"[P47316] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T12:09:14.132Z"}
+{"context":"NestApplication","level":"info","message":"[P47316] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T12:09:14.135Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：POST -> /api/auth/login","timestamp":"2024-05-10T12:09:18.674Z"}
+{"level":"warn","message":"错误信息：(200) 用户名密码有误 Path: /api/auth/login","timestamp":"2024-05-10T12:09:18.686Z"}
+{"context":"NestApplication","level":"info","message":"[P55148] Server running on http://127.0.0.1:17005","timestamp":"2024-05-10T12:10:16.760Z"}
+{"context":"NestApplication","level":"info","message":"[P55148] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-10T12:10:16.763Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：POST -> /api/auth/login","timestamp":"2024-05-10T12:10:28.813Z"}
+{"level":"warn","message":"错误信息：(200) 用户名密码有误 Path: /api/auth/login","timestamp":"2024-05-10T12:10:28.830Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：POST -> /api/auth/login","timestamp":"2024-05-10T12:10:31.548Z"}
+{"level":"warn","message":"错误信息：(200) 用户名密码有误 Path: /api/auth/login","timestamp":"2024-05-10T12:10:31.553Z"}

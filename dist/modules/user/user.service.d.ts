@@ -1,0 +1,38 @@
+import Redis from 'ioredis';
+import { EntityManager, Repository } from 'typeorm';
+import { Pagination } from '~/helper/paginate/pagination';
+import { AccountUpdateDto } from '~/modules/auth/dto/account.dto';
+import { RegisterDto } from '~/modules/auth/dto/auth.dto';
+import { QQService } from '~/shared/helper/qq.service';
+import { ParamConfigService } from '../system/param-config/param-config.service';
+import { RoleEntity } from '../system/role/role.entity';
+import { PasswordUpdateDto } from './dto/password.dto';
+import { UserDto, UserQueryDto, UserUpdateDto } from './dto/user.dto';
+import { UserEntity } from './user.entity';
+import { AccountInfo } from './user.model';
+export declare class UserService {
+    private readonly redis;
+    private readonly userRepository;
+    private readonly roleRepository;
+    private entityManager;
+    private readonly paramConfigService;
+    private readonly qqService;
+    constructor(redis: Redis, userRepository: Repository<UserEntity>, roleRepository: Repository<RoleEntity>, entityManager: EntityManager, paramConfigService: ParamConfigService, qqService: QQService);
+    findUserById(id: number): Promise<UserEntity | undefined>;
+    findUserByUserName(username: string): Promise<UserEntity | undefined>;
+    getAccountInfo(uid: number): Promise<AccountInfo>;
+    updateAccountInfo(uid: number, info: AccountUpdateDto): Promise<void>;
+    updatePassword(uid: number, dto: PasswordUpdateDto): Promise<void>;
+    forceUpdatePassword(uid: number, password: string): Promise<void>;
+    create({ username, password, roleIds, deptId, ...data }: UserDto): Promise<void>;
+    update(id: number, { password, deptId, roleIds, status, ...data }: UserUpdateDto): Promise<void>;
+    info(id: number): Promise<UserEntity>;
+    delete(userIds: number[]): Promise<void | never>;
+    findRootUserId(): Promise<number>;
+    list({ page, pageSize, username, nickname, deptId, email, status, }: UserQueryDto): Promise<Pagination<UserEntity>>;
+    forbidden(uid: number, accessToken?: string): Promise<void>;
+    multiForbidden(uids: number[]): Promise<void>;
+    upgradePasswordV(id: number): Promise<void>;
+    exist(username: string): Promise<boolean>;
+    register({ username, ...data }: RegisterDto): Promise<void>;
+}

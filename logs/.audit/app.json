@@ -1,0 +1,110 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 31
+    },
+    "auditLog": "logs/.audit/app.json",
+    "files": [
+        {
+            "date": 1715243775107,
+            "name": "logs\\app.2024-05-09.log",
+            "hash": "b4b83d5fdc859448a7bbfc48c8d561933aadef0a9e9e77d7d4952c63be409a3c"
+        },
+        {
+            "date": 1715270401501,
+            "name": "logs\\app.2024-05-10.log",
+            "hash": "6471cf1ceecbf1d6b087105af9b6edf34964731770b1b27101460d417d67cdb1"
+        },
+        {
+            "date": 1715356800021,
+            "name": "logs\\app.2024-05-11.log",
+            "hash": "9773c6606bfdc6261ee5cefc3b9eb941ad704e85c1ec8105d1c7746abf8ef906"
+        },
+        {
+            "date": 1715443201551,
+            "name": "logs\\app.2024-05-12.log",
+            "hash": "b85d8d14a8e17c90a8f65849471e67187c1eaeaaa29601e72d1db91121d5d93d"
+        },
+        {
+            "date": 1715529600016,
+            "name": "logs\\app.2024-05-13.log",
+            "hash": "6e6613bb1ae25bf8ef1486917b2e5298d555483e4aa545b7c1835b260a6a2b96"
+        },
+        {
+            "date": 1715829063597,
+            "name": "logs\\app.2024-05-16.log",
+            "hash": "e3cac8a14545cc0e17a65e38d75955f0ccf82ccb3ed2efd42c29b110a7cef12c"
+        },
+        {
+            "date": 1715875200019,
+            "name": "logs\\app.2024-05-17.log",
+            "hash": "63e3aa7e9ce3a302ee609c5c0227416c114bc03a7aa17bf554f939e03061278b"
+        },
+        {
+            "date": 1716089435981,
+            "name": "logs\\app.2024-05-19.log",
+            "hash": "93389640a82495930c952b43ebaa0034fd0bdeeaa789cb8bca396b483942679f"
+        },
+        {
+            "date": 1716134400015,
+            "name": "logs\\app.2024-05-20.log",
+            "hash": "a9173bc5cc7e77530c7f85bcc262d9474cc6dea24cd383454899a38ef9ba2048"
+        },
+        {
+            "date": 1716220801614,
+            "name": "logs\\app.2024-05-21.log",
+            "hash": "bca56468b0c6664c0f2bebac0c70b35a305df5d5a194d51b20162949957bcc36"
+        },
+        {
+            "date": 1716307200232,
+            "name": "logs\\app.2024-05-22.log",
+            "hash": "1c20091dfe9a9ce791585f231ecea0f38613ef365ca94b0bd3d136231a9ce3be"
+        },
+        {
+            "date": 1716393600014,
+            "name": "logs\\app.2024-05-23.log",
+            "hash": "2a364a03f53852c190695b8d0a03d342c955ddb3b1cc579a3161b109a8e61976"
+        },
+        {
+            "date": 1716480000035,
+            "name": "logs\\app.2024-05-24.log",
+            "hash": "4b0c6df2fa142873d245070070d07c19b9671bebdb23e1343e1d9ce40954aedc"
+        },
+        {
+            "date": 1716566401477,
+            "name": "logs\\app.2024-05-25.log",
+            "hash": "27ebcf8000ee504c661e342b4cf67d29a35e23dfef30eeb359ec4e7f14c3cfde"
+        },
+        {
+            "date": 1716652800058,
+            "name": "logs\\app.2024-05-26.log",
+            "hash": "b91323593e6088b73ee8b26abd1825e5e23edd5b5b9c626f7e4efb4c6eeaca1b"
+        },
+        {
+            "date": 1716739201415,
+            "name": "logs\\app.2024-05-27.log",
+            "hash": "0fae3923fe2bbdb0247aceab6cbc8a034d50b3c2f5d6178736a9c01e5a88e3d0"
+        },
+        {
+            "date": 1716825600107,
+            "name": "logs\\app.2024-05-28.log",
+            "hash": "bd95deab9dd34af9a5300b1c76536224cd0c934cea5e45921a880a1325c4541a"
+        },
+        {
+            "date": 1716912001455,
+            "name": "logs\\app.2024-05-29.log",
+            "hash": "0a6b4279452d733afea536de1dbd26b0c9766a5100e7585dab90699868959fb9"
+        },
+        {
+            "date": 1716998400322,
+            "name": "logs\\app.2024-05-30.log",
+            "hash": "bc6afbac513f4cc970b50864d71761c3538ba66388ef0320850303b618659978"
+        },
+        {
+            "date": 1717084801654,
+            "name": "logs\\app.2024-05-31.log",
+            "hash": "0396ed210e228fe1ef9d5695a7fbccb1d88c27b3e42bcbb0363476cf5f6a7dff"
+        }
+    ],
+    "hashType": "sha256"
+}

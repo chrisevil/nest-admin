@@ -1,0 +1,30 @@
+import Redis from 'ioredis';
+import { IAppConfig, ISecurityConfig } from '~/config';
+import { UserService } from '~/modules/user/user.service';
+import { LoginLogService } from '../system/log/services/login-log.service';
+import { MenuService } from '../system/menu/menu.service';
+import { RoleService } from '../system/role/role.service';
+import { TokenService } from './services/token.service';
+export declare class AuthService {
+    private readonly redis;
+    private menuService;
+    private roleService;
+    private userService;
+    private loginLogService;
+    private tokenService;
+    private securityConfig;
+    private appConfig;
+    constructor(redis: Redis, menuService: MenuService, roleService: RoleService, userService: UserService, loginLogService: LoginLogService, tokenService: TokenService, securityConfig: ISecurityConfig, appConfig: IAppConfig);
+    validateUser(credential: string, password: string): Promise<any>;
+    login(username: string, password: string, ip: string, ua: string): Promise<string>;
+    checkPassword(username: string, password: string): Promise<void>;
+    loginLog(uid: number, ip: string, ua: string): Promise<void>;
+    resetPassword(username: string, password: string): Promise<void>;
+    clearLoginStatus(user: IAuthUser, accessToken: string): Promise<void>;
+    getMenus(uid: number): Promise<import("~/utils").RouteRecordRaw[]>;
+    getPermissions(uid: number): Promise<string[]>;
+    getPermissionsCache(uid: number): Promise<string[]>;
+    setPermissionsCache(uid: number, permissions: string[]): Promise<void>;
+    getPasswordVersionByUid(uid: number): Promise<string>;
+    getTokenByUid(uid: number): Promise<string>;
+}

@@ -1,0 +1,47 @@
+{"context":"NestApplication","level":"info","message":"[P47480] Server running on http://127.0.0.1:17005","timestamp":"2024-05-19T03:30:38.523Z"}
+{"context":"NestApplication","level":"info","message":"[P47480] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-19T03:30:38.526Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：POST -> /api/auth/login","timestamp":"2024-05-19T03:36:00.202Z"}
+{"level":"warn","message":"错误信息：(200) 用户名密码有误 Path: /api/auth/login","timestamp":"2024-05-19T03:36:00.227Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：POST -> /api/auth/login","timestamp":"2024-05-19T03:36:41.266Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：POST -> /api/auth/login +129ms","timestamp":"2024-05-19T03:36:41.397Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：GET -> /api/sse/1","timestamp":"2024-05-19T09:12:58.256Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +12021ms","timestamp":"2024-05-19T09:13:10.278Z"}
+{"context":"NestApplication","level":"info","message":"[P42696] Server running on http://127.0.0.1:17005","timestamp":"2024-05-19T09:15:19.943Z"}
+{"context":"NestApplication","level":"info","message":"[P42696] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-19T09:15:19.947Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：GET -> /api/sse/1","timestamp":"2024-05-19T09:17:54.771Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +35ms","timestamp":"2024-05-19T09:17:54.807Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +12020ms","timestamp":"2024-05-19T09:18:06.792Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +24032ms","timestamp":"2024-05-19T09:18:18.804Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +36044ms","timestamp":"2024-05-19T09:18:30.815Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +48052ms","timestamp":"2024-05-19T09:18:42.824Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +60067ms","timestamp":"2024-05-19T09:18:54.839Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +72082ms","timestamp":"2024-05-19T09:19:06.854Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +84089ms","timestamp":"2024-05-19T09:19:18.861Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +96091ms","timestamp":"2024-05-19T09:19:30.863Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +108104ms","timestamp":"2024-05-19T09:19:42.876Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +120106ms","timestamp":"2024-05-19T09:19:54.878Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +132108ms","timestamp":"2024-05-19T09:20:06.880Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +144124ms","timestamp":"2024-05-19T09:20:18.896Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +156132ms","timestamp":"2024-05-19T09:20:30.904Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +168133ms","timestamp":"2024-05-19T09:20:42.905Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +180149ms","timestamp":"2024-05-19T09:20:54.921Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +192159ms","timestamp":"2024-05-19T09:21:06.931Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +204163ms","timestamp":"2024-05-19T09:21:18.935Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +216164ms","timestamp":"2024-05-19T09:21:30.936Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +228177ms","timestamp":"2024-05-19T09:21:42.948Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +240189ms","timestamp":"2024-05-19T09:21:54.961Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +252194ms","timestamp":"2024-05-19T09:22:06.966Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +264198ms","timestamp":"2024-05-19T09:22:18.970Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +276204ms","timestamp":"2024-05-19T09:22:30.976Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +288207ms","timestamp":"2024-05-19T09:22:42.979Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +300214ms","timestamp":"2024-05-19T09:22:54.986Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +312224ms","timestamp":"2024-05-19T09:23:06.996Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +324227ms","timestamp":"2024-05-19T09:23:18.998Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +336228ms","timestamp":"2024-05-19T09:23:31.000Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +348230ms","timestamp":"2024-05-19T09:23:43.002Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +360240ms","timestamp":"2024-05-19T09:23:55.012Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"+++ 请求：GET -> /api/sse/1","timestamp":"2024-05-19T09:25:55.085Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +22ms","timestamp":"2024-05-19T09:25:55.108Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +12013ms","timestamp":"2024-05-19T09:26:07.099Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +24019ms","timestamp":"2024-05-19T09:26:19.105Z"}
+{"context":"LoggingInterceptor","level":"debug","message":"--- 响应：GET -> /api/sse/1 +36021ms","timestamp":"2024-05-19T09:26:31.107Z"}

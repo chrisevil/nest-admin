@@ -1,0 +1,6 @@
+{"context":"CronService","level":"info","message":"--> 开始扫表，清除过期的 token","timestamp":"2024-05-26T16:00:01.414Z"}
+{"context":"CronService","level":"info","message":"--> 删除了 0 个过期的 token","timestamp":"2024-05-26T16:00:01.501Z"}
+{"context":"NestApplication","level":"info","message":"[P31916] Server running on http://127.0.0.1:17005","timestamp":"2024-05-27T05:42:23.886Z"}
+{"context":"NestApplication","level":"info","message":"[P31916] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-27T05:42:23.888Z"}
+{"context":"NestApplication","level":"info","message":"[P32524] Server running on http://127.0.0.1:17005","timestamp":"2024-05-27T06:03:30.579Z"}
+{"context":"NestApplication","level":"info","message":"[P32524] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-27T06:03:30.582Z"}

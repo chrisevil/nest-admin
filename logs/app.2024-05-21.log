@@ -1,0 +1,3 @@
+{"context":"CronService","level":"info","message":"--> 开始扫表，清除过期的 token","timestamp":"2024-05-20T16:00:01.566Z"}
+{"context":"CronService","level":"debug","message":"--> 删除过期的 token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjEsInB2IjoxLCJyb2xlcyI6W10sImlhdCI6MTcxNjA4OTgwMSwiZXhwIjoxNzE2MTc2MjAxfQ.J9jiX44S7dWXwNjIXRguw0Wgb7Qs_vpDdKC4cG4oDs0, 签发于 2024-05-19 11:36:41","timestamp":"2024-05-20T16:00:01.803Z"}
+{"context":"CronService","level":"info","message":"--> 删除了 1 个过期的 token","timestamp":"2024-05-20T16:00:01.804Z"}

@@ -1,0 +1,4 @@
+{"context":"NestApplication","level":"info","message":"[P38840] Server running on http://127.0.0.1:17005","timestamp":"2024-05-09T08:36:17.025Z"}
+{"context":"NestApplication","level":"info","message":"[P38840] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-09T08:36:17.028Z"}
+{"context":"NestApplication","level":"info","message":"[P48384] Server running on http://127.0.0.1:17005","timestamp":"2024-05-09T08:44:36.505Z"}
+{"context":"NestApplication","level":"info","message":"[P48384] OpenAPI: http://127.0.0.1:17005/api-docs","timestamp":"2024-05-09T08:44:36.508Z"}
